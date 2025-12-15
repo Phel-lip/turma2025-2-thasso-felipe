@@ -11259,3 +11259,47 @@ The current user directory, for saving user-specific settings:
 [2025.12.15-13.12.04:517][994]LogDerivedDataCache: Display: ZenLocal: Error response received from PutCacheRecords RPC: from POST http://[::1]:8558//z$/$rpc -> 507
 [2025.12.15-13.12.04:517][994]LogDerivedDataCache: Display: ZenLocal: Error response received from PutCacheRecords RPC: from POST http://[::1]:8558//z$/$rpc -> 507
 [2025.12.15-13.12.59:432][220]LogSlate: Took 0.001274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: ================================================
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Total job queries 11.610, among them cache hits 0 (0.00%), DDC hits 0 (0.00%), Duplicates 2.677 (23.06%)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Tracking 8.933 distinct input hashes that result in 8.448 distinct outputs (94.57%)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: RAM used: 6,35 MiB of 1,60 GiB budget. Usage: 0.39%
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Shaders Compiled: 8.933
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Jobs assigned 8.933, completed 8.933 (100%)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Average time worker was idle: 2.49 s
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Time job spent in pending queue: average 158.62 s, longest 335.71 s
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Job execution time: average 3.84 s, max 69.93 s
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Job life time (pending + execution): average 162.47 s, max 336.09
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Shader code size: average 14,305 KiB, min 1,16 KiB, max 330,049 KiB
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 356.91 s
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.36%
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Jobs were issued in 966 batches (only local compilation was used), average 9.25 jobs/batch
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Average processing rate: 25.03 jobs/sec
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Total thread time: 3.442,356 s
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Total thread preprocess time: 97,53 s
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Percentage time preprocessing: 2.83%
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Effective parallelization: 9.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 14.85 sec, max 49.95 sec, min 0.87 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 10.99 sec, max 10.99 sec, min 10.99 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.63 sec, max 6.42 sec, min 3.55 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 2.52 sec, max 5.12 sec, min 0.90 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.96 sec, max 4.07 sec, min 1.02 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                                             FDeferredLightPS - 13.50% of total time (compiled  454 times, average 1.02 sec, max 2.11 sec, min 0.66 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 11.65% of total time (compiled   27 times, average 14.85 sec, max 49.95 sec, min 0.87 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 10.36% of total time (compiled  260 times, average 1.37 sec, max 3.23 sec, min 0.00 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.52% of total time (compiled  480 times, average 0.40 sec, max 1.56 sec, min 0.17 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.81% of total time (compiled   72 times, average 1.82 sec, max 3.02 sec, min 1.28 sec)
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: === Material stats ===
+[2025.12.15-13.14.46:481][116]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.12.15-13.14.46:482][116]LogShaderCompilers: Display: Materials Translated:    135
+[2025.12.15-13.14.46:482][116]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.12.15-13.14.46:482][116]LogShaderCompilers: Display: Material Translation Only: 0.03 s (30%)
+[2025.12.15-13.14.46:482][116]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.12.15-13.14.46:482][116]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.12.15-13.14.46:482][116]LogShaderCompilers: Display: ================================================
+[2025.12.15-13.17.33:179][616]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 581.538147
+[2025.12.15-13.17.34:179][619]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.15-13.17.34:179][620]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 582.202942, Update Interval: 342.829681
