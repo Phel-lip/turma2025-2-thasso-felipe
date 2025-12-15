@@ -2854,3 +2854,43 @@ The project directory:
 [2025.12.15-15.08.43:462][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
 [2025.12.15-15.08.46:908][668]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
 [2025.12.15-15.08.46:908][668]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_56
+[2025.12.15-15.10.13:969][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.12.15-15.10.13:972][618]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.042
+[2025.12.15-15.10.13:973][618]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.12.15-15.10.13:985][618]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.12.15-15.10.13:985][618]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.12.15-15.10.14:003][618]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto8
+[2025.12.15-15.10.14:003][618]LogSavePackage: Moving '../../../../../../Users/Aluno/Documents/Unreal Projects/turma2025-2-thasso-felipe/teste03_11 5.6/Saved/BP_ThirdPersonCharacter_Auto82C8AE62C4A4CD0B52997E585A3C45BFA.tmp' to '../../../../../../Users/Aluno/Documents/Unreal Projects/turma2025-2-thasso-felipe/teste03_11 5.6/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto8.uasset'
+[2025.12.15-15.10.14:005][618]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/UI/HUD] ([2] browsable assets)...
+[2025.12.15-15.10.14:010][618]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/UI/HUD.HUD]
+[2025.12.15-15.10.14:010][618]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/UI/HUD]
+[2025.12.15-15.10.14:025][618]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/UI/HUD_Auto8
+[2025.12.15-15.10.14:025][618]LogSavePackage: Moving '../../../../../../Users/Aluno/Documents/Unreal Projects/turma2025-2-thasso-felipe/teste03_11 5.6/Saved/HUD_Auto8821C28814E156800642ABDA8835E41D5.tmp' to '../../../../../../Users/Aluno/Documents/Unreal Projects/turma2025-2-thasso-felipe/teste03_11 5.6/Saved/Autosaves/Game/ThirdPerson/UI/HUD_Auto8.uasset'
+[2025.12.15-15.10.14:026][618]LogFileHelpers: Auto-saving content packages took 0.053
+[2025.12.15-15.10.36:823][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.12.15-15.10.37:515][845]LogSlate: Window 'BP_ThirdPersonCharacter' being destroyed
+[2025.12.15-15.10.37:563][845]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2025.12.15-15.10.37:563][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.15-15.10.37:614][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.12.15-15.10.40:587][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.12.15-15.10.40:591][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.15-15.10.40:625][ 85]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.12.15-15.10.40:635][ 85]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.12.15-15.10.40:635][ 85]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.12.15-15.10.40:653][ 85]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.12.15-15.10.40:665][ 85]LogSavePackage: Moving '../../../../../../Users/Aluno/Documents/Unreal Projects/turma2025-2-thasso-felipe/teste03_11 5.6/Saved/BP_ThirdPersonCharacter4B3AB89A4EEC36B831B907892CA29FA7.tmp' to '../../../../../../Users/Aluno/Documents/Unreal Projects/turma2025-2-thasso-felipe/teste03_11 5.6/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.12.15-15.10.40:668][ 85]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/UI/HUD] ([2] browsable assets)...
+[2025.12.15-15.10.40:668][ 85]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/UI/HUD]
+[2025.12.15-15.10.40:682][ 85]LogSavePackage: Moving output files for package: /Game/ThirdPerson/UI/HUD
+[2025.12.15-15.10.40:682][ 85]LogSavePackage: Moving '../../../../../../Users/Aluno/Documents/Unreal Projects/turma2025-2-thasso-felipe/teste03_11 5.6/Saved/HUDD05B38D54F5B4FC777211FABBE5E3DE4.tmp' to '../../../../../../Users/Aluno/Documents/Unreal Projects/turma2025-2-thasso-felipe/teste03_11 5.6/Content/ThirdPerson/UI/HUD.uasset'
+[2025.12.15-15.10.40:691][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.717 ms (total: 319.689 ms)
+[2025.12.15-15.10.40:744][ 85]LogContentValidation: Display: Starting to validate 2 assets
+[2025.12.15-15.10.40:744][ 85]LogContentValidation: Enabled validators:
+[2025.12.15-15.10.40:744][ 85]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.15-15.10.40:745][ 85]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.15-15.10.40:745][ 85]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.15-15.10.40:745][ 85]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.15-15.10.40:745][ 85]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.15-15.10.40:745][ 85]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.15-15.10.40:745][ 85]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter Validating asset
+[2025.12.15-15.10.40:745][ 85]AssetCheck: /Game/ThirdPerson/UI/HUD Validating asset
